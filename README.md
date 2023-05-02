@@ -6,7 +6,8 @@ To use the Fabric samples, you need to download the Fabric Docker images and the
 **Test network**
 The Fabric test network in the samples repository provides a Docker Compose based test network with two Organization peers and an ordering service node. You can use it on your local machine to run the samples listed below. You can also use it to deploy and test your own Fabric chaincodes and applications. To get started, see the test network tutorial.
 
-The Kubernetes Test Network sample builds upon the Compose network, constructing a Fabric network with peer, orderer, and CA infrastructure nodes running on Kubernetes. In addition to providing a sample Kubernetes guide, the Kube test network can be used as a platform to author and debug cloud ready Fabric Client applications on a development or CI workstation.
+The Kubernetes Test Network sample builds upon the Compose network, constructing a Fabric network with peer, orderer, and CA infrastructure nodes running on Kubernetes. In addition to providing a sample K
+
 **Asset transfer samples and tutorials**
 The asset transfer series provides a series of sample smart contracts and applications to demonstrate how to store and transfer assets using Hyperledger Fabric. Each sample and associated tutorial in the series demonstrates a different core capability in Hyperledger Fabric. The Basic sample provides an introduction on how to write smart contracts and how to interact with a Fabric network using the Fabric SDKs. The Ledger queries, Private data, and State-based endorsement samples demonstrate these additional capabilities. Finally, the Secured agreement sample demonstrates how to bring all the capabilities together to securely transfer an asset in a more realistic transfer scenario.
 
